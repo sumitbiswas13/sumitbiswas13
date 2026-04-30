@@ -1,4 +1,4 @@
-# Hi there, I'm Sumit (close one's call me Sumi) 👋
+# Hi, I’m Sumit — my close friends call me Sumi. 👋 
 
 🚀 **Sr. Technical Program Manager** — AI & Cloud Strategy | DevOps & Release Engineering | Quality at Scale
 
