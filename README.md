@@ -84,7 +84,7 @@
 
 ## 📜 Certifications
 
-`SAFe` &nbsp; `ISTQB` &nbsp; `ISO 9001` &nbsp; `ITIL` &nbsp; `Google AI Specialization`
+`SAFe` &nbsp; `ISTQB` &nbsp; `ISO 9001` &nbsp; `ITIL` &nbsp; `Google AI Specialization`; Good Vibe Coding: Zero to App
 
 ---
 
