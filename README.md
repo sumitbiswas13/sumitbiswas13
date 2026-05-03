@@ -4,7 +4,7 @@
 
 21+ years driving enterprise transformation across telecom, edtech, e-commerce, and legal platforms. I sit at the intersection of **engineering, infrastructure, and delivery** — building the systems, pipelines, and frameworks that ship software faster, safer, and smarter.
 
-💡 *Currently building a public portfolio of automation and data validation projects spanning 5 industries — because real engineers ship working code, not just slides.*
+💡 *Currently building a public portfolio of automation and data validation projects spanning industry wide — because real engineers ship working code, not just slides.*
 
 ---
 
