@@ -4,7 +4,7 @@
 
 21+ years driving enterprise transformation across telecom, edtech, e-commerce, and legal platforms. I sit at the intersection of **engineering, infrastructure, and delivery** — building the systems, pipelines, and frameworks that ship software faster, safer, and smarter.
 
-💡 *Currently building a public portfolio of automation and data validation projects spanning industry wide — because real engineers ship working code, not just slides.*
+👋 *Engineer by profession, builder by nature. I work across data, backend, and frontend because real problems don't come neatly packaged into one layer. You'll find Oracle, Python, Kafka, and React here — alongside a genuine obsession with building things that are both functional and well-designed.*
 
 ---
 
