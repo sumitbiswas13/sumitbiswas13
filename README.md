@@ -22,6 +22,7 @@
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-FF6C37?style=flat&logo=circleci&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=flat&logo=azuredevops&logoColor=white)
 ![Selenium Grid](https://img.shields.io/badge/Selenium_Grid-43B02A?style=flat&logo=selenium&logoColor=white)
 ![SauceLabs](https://img.shields.io/badge/SauceLabs-E2231A?style=flat&logo=saucelabs&logoColor=white)
 
@@ -40,7 +41,13 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-**Automation & Engineering**
+**Microsoft Ecosystem**
+
+![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat&logo=microsoft&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat&logo=microsoftsharepoint&logoColor=white)
+
+**Automation & Testing**
 
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
@@ -66,15 +73,27 @@
 
 ## 🗄️ Oracle Engineering Portfolio
 
-End-to-end Oracle projects spanning schema design, data engineering, security, payroll systems, and autonomous threat response.
+End-to-end Oracle projects spanning schema design, security gateways, payroll systems, AI query interfaces, and autonomous threat response.
 
 | # | Project | What it does |
 |---|---------|-------------|
-| 1 | [oracle-schema-visualizer](https://github.com/sumitbiswas13/oracle-schema-visualizer) | Connects to any Oracle DB and generates a beautiful interactive ER diagram as a single HTML file |
+| 1 | [oracle-schema-visualizer](https://github.com/sumitbiswas13/oracle-schema-visualizer) | Connects to any Oracle DB and generates an interactive ER diagram as a single HTML file |
 | 2 | [oracle-data-masker](https://github.com/sumitbiswas13/oracle-data-masker) | Auto-detects and masks PII columns in Oracle tables — 15 masking strategies, CSV/JSON export |
 | 3 | [oracle-rest-api](https://github.com/sumitbiswas13/oracle-rest-api) | Dynamic FastAPI wrapper that exposes any Oracle schema as a REST API with full CRUD |
-| 4 | [kronos-oracle-global-payroll-system](https://github.com/sumitbiswas13/kronos-oracle-global-payroll-system) | Enterprise global payroll platform — Kronos + Oracle, 4 countries, multi-currency, PDF payslips, employee portal |
-| 5 | [oracle-data-gateway](https://github.com/sumitbiswas13/oracle-data-gateway) | Autonomous self-healing security gateway — JWT, SQL injection filter, PII masking, Kafka, GDPR/HIPAA/PCI-DSS, Tesla-inspired Perceive→Decide→Act→Learn loop |
+| 4 | [kronos-oracle-global-payroll-system](https://github.com/sumitbiswas13/kronos-oracle-global-payroll-system) | Enterprise global payroll — Kronos UKG + Oracle, 4 countries, multi-currency FX, PDF payslips, employee self-service portal (8 phases) |
+| 5 | [oracle-data-gateway](https://github.com/sumitbiswas13/oracle-data-gateway) | Autonomous self-healing security gateway — JWT auth, SQL injection filter, PII masking, Kafka streaming, GDPR/HIPAA/PCI-DSS compliance, Tesla-inspired Perceive→Decide→Act→Learn loop (10 phases) |
+| 6 | [oracle-ai-query-assistant](https://github.com/sumitbiswas13/oracle-ai-query-assistant) | Ask Oracle DB questions in plain English — Azure OpenAI generates schema-aware SQL, review it, execute safely through the gateway with PII masking by role (4 phases) |
+
+---
+
+## 🔵 Microsoft Ecosystem Portfolio
+
+Projects bridging Microsoft Azure, SharePoint, and Azure OpenAI with Oracle and enterprise data infrastructure.
+
+| # | Project | What it does |
+|---|---------|-------------|
+| 7 | [azure-devops-pipeline-analyzer](https://github.com/sumitbiswas13/azure-devops-pipeline-analyzer) | Connects to Azure DevOps, analyses failure patterns, bottlenecks, and duration trends — weekly PDF health reports, FastAPI layer, React dashboard (5 phases) |
+| 8 | [sharepoint-oracle-bridge](https://github.com/sumitbiswas13/sharepoint-oracle-bridge) | Advanced bidirectional SharePoint ↔ Oracle sync — delta tokens, real-time webhooks, document text extraction, ETL pipeline with dead-letter queue, bidirectional push, React control-room dashboard (5 phases) |
 
 ---
 
@@ -82,11 +101,11 @@ End-to-end Oracle projects spanning schema design, data engineering, security, p
 
 | # | Project | Domain | Tests | CI |
 |---|---------|--------|-------|-----|
-| 1 | [saucedemo-playwright-ecom](https://github.com/sumitbiswas13/saucedemo-playwright-ecom) | E-Commerce UI | 130 | [![CI](https://github.com/sumitbiswas13/saucedemo-playwright-ecom/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/saucedemo-playwright-ecom/actions) |
-| 2 | [restful-booker-api-tests](https://github.com/sumitbiswas13/restful-booker-api-tests) | Healthcare API | 28 | [![CI](https://github.com/sumitbiswas13/restful-booker-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/restful-booker-api-tests/actions) |
-| 3 | [space-data-api-tests](https://github.com/sumitbiswas13/space-data-api-tests) | Government/Space | 40 | [![CI](https://github.com/sumitbiswas13/space-data-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/space-data-api-tests/actions) |
-| 4 | [alpha-vantage-api-tests](https://github.com/sumitbiswas13/alpha-vantage-api-tests) | Finance/Stock | 5 | [![CI](https://github.com/sumitbiswas13/alpha-vantage-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/alpha-vantage-api-tests/actions) |
-| 5 | [blazedemo-travel-tests](https://github.com/sumitbiswas13/blazedemo-travel-tests) | Travel/Cross-Browser | 20 | [![CI](https://github.com/sumitbiswas13/blazedemo-travel-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/blazedemo-travel-tests/actions) |
+| 9 | [saucedemo-playwright-ecom](https://github.com/sumitbiswas13/saucedemo-playwright-ecom) | E-Commerce UI | 130 | [![CI](https://github.com/sumitbiswas13/saucedemo-playwright-ecom/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/saucedemo-playwright-ecom/actions) |
+| 10 | [restful-booker-api-tests](https://github.com/sumitbiswas13/restful-booker-api-tests) | Healthcare API | 28 | [![CI](https://github.com/sumitbiswas13/restful-booker-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/restful-booker-api-tests/actions) |
+| 11 | [space-data-api-tests](https://github.com/sumitbiswas13/space-data-api-tests) | Government/Space | 40 | [![CI](https://github.com/sumitbiswas13/space-data-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/space-data-api-tests/actions) |
+| 12 | [alpha-vantage-api-tests](https://github.com/sumitbiswas13/alpha-vantage-api-tests) | Finance/Stock | 5 | [![CI](https://github.com/sumitbiswas13/alpha-vantage-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/alpha-vantage-api-tests/actions) |
+| 13 | [blazedemo-travel-tests](https://github.com/sumitbiswas13/blazedemo-travel-tests) | Travel/Cross-Browser | 20 | [![CI](https://github.com/sumitbiswas13/blazedemo-travel-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/sumitbiswas13/blazedemo-travel-tests/actions) |
 
 ---
 
